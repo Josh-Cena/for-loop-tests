@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "lib": ["DOM"],
+    "target": "ES5",
+    "allowJs": true,
+    "outDir": "output-tsc"
+  },
+  "include": ["baseline"]
+}

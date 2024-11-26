@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "scripts": {
+    "build:babel": "babel baseline --out-dir output-babel",
+    "build:tsc": "tsc",
+    "build:esbuild": "bun esbuild.js",
+    "build:swc": "swc baseline --out-dir output-swc"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "esbuild": "^0.24.0",
+    "swc": "^1.0.11",
+    "typescript": "^5.7.2"
+  }
+}
